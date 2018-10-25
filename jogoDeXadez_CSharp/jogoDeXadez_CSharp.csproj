@@ -6,7 +6,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Tabuleiro\" />
+    <Folder Include="tabuleiro\" />
+    <Folder Include="xadrez\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="Posicao.cs" />

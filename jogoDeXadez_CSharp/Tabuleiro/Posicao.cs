@@ -1,5 +1,5 @@
 ﻿using System;
-namespace jogoDeXadez_CSharp
+namespace tabuleiro
 {
     class Posicao
     {
