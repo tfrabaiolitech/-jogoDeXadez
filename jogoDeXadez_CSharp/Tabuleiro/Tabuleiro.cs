@@ -61,5 +61,15 @@ namespace tabuleiro
             }
         }
 
+        public Peca retirarPeca(Posicao pos){
+            if(peca(pos) == null){
+                return null;
+            }
+            Peca aux = peca(pos);
+            aux.posicao = null; // Marca peça como null.
+            pecas[pos.linha, pos.coluna] = null; // Agora no tabuleiro, não tem peça mais
+            return aux;
+        }
+
     }
 }
